@@ -1,39 +1,39 @@
 {
   "results": [
     {
-      "message": "\u001b[0m\u001b[1m\u001b[31merror\u001b[0m: Uncaught ReferenceError: process is not defined\nconst args = process.argv.slice(2);\n\u001b[0m\u001b[31m             ^\u001b[0m\n    at \u001b[0m\u001b[36mfile:///home/runner/work/wasi-test-runners/wasi-test-runners/tools/run-deno\u001b[0m:\u001b[0m\u001b[33m25\u001b[0m:\u001b[0m\u001b[33m14\u001b[0m\n",
+      "message": "",
       "name": "libc/clock_gettime.wasm",
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
-      "message": "--- exit-success.status\t2021-06-26 22:02:43.747409835 +0000\n+++ /tmp/tmp.eAWG3jw9X7/status\t2021-06-26 22:02:46.447428436 +0000\n@@ -1 +1 @@\n-0\n+1\n",
+      "message": "",
       "name": "libc/exit-success.wasm",
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
-      "message": "\u001b[0m\u001b[1m\u001b[31merror\u001b[0m: Uncaught ReferenceError: process is not defined\nconst args = process.argv.slice(2);\n\u001b[0m\u001b[31m             ^\u001b[0m\n    at \u001b[0m\u001b[36mfile:///home/runner/work/wasi-test-runners/wasi-test-runners/tools/run-deno\u001b[0m:\u001b[0m\u001b[33m25\u001b[0m:\u001b[0m\u001b[33m14\u001b[0m\n",
+      "message": "",
       "name": "libc/getentropy.wasm",
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
-      "message": "\u001b[0m\u001b[1m\u001b[31merror\u001b[0m: Uncaught ReferenceError: process is not defined\nconst args = process.argv.slice(2);\n\u001b[0m\u001b[31m             ^\u001b[0m\n    at \u001b[0m\u001b[36mfile:///home/runner/work/wasi-test-runners/wasi-test-runners/tools/run-deno\u001b[0m:\u001b[0m\u001b[33m25\u001b[0m:\u001b[0m\u001b[33m14\u001b[0m\n",
+      "message": "",
       "name": "libc/stdin-hello.wasm",
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
-      "message": "--- stderr-hello.stderr\t2021-06-26 22:02:43.747409835 +0000\n+++ /tmp/tmp.HwgEBPvyEe/stderr\t2021-06-26 22:02:46.611429566 +0000\n@@ -1 +1,4 @@\n-Hello, stderr!\n+\u001b[0m\u001b[1m\u001b[31merror\u001b[0m: Uncaught ReferenceError: process is not defined\n+const args = process.argv.slice(2);\n+\u001b[0m\u001b[31m             ^\u001b[0m\n+    at \u001b[0m\u001b[36mfile:///home/runner/work/wasi-test-runners/wasi-test-runners/tools/run-deno\u001b[0m:\u001b[0m\u001b[33m25\u001b[0m:\u001b[0m\u001b[33m14\u001b[0m\n",
+      "message": "",
       "name": "libc/stderr-hello.wasm",
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
-      "message": "\u001b[0m\u001b[1m\u001b[31merror\u001b[0m: Uncaught ReferenceError: process is not defined\nconst args = process.argv.slice(2);\n\u001b[0m\u001b[31m             ^\u001b[0m\n    at \u001b[0m\u001b[36mfile:///home/runner/work/wasi-test-runners/wasi-test-runners/tools/run-deno\u001b[0m:\u001b[0m\u001b[33m25\u001b[0m:\u001b[0m\u001b[33m14\u001b[0m\n",
+      "message": "",
       "name": "libc/getenv-hello.wasm",
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
-      "message": "--- stdout-hello.stdout\t2021-06-26 22:02:43.747409835 +0000\n+++ /tmp/tmp.YRk6dBZRLt/stdout\t2021-06-26 22:02:46.675430007 +0000\n@@ -1 +0,0 @@\n-Hello, stdout!\n",
+      "message": "",
       "name": "libc/stdout-hello.wasm",
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "message": "",
@@ -41,34 +41,34 @@
       "status": "PASS"
     },
     {
-      "message": "\u001b[0m\u001b[1m\u001b[31merror\u001b[0m: Uncaught ReferenceError: process is not defined\nconst args = process.argv.slice(2);\n\u001b[0m\u001b[31m             ^\u001b[0m\n    at \u001b[0m\u001b[36mfile:///home/runner/work/wasi-test-runners/wasi-test-runners/tools/run-deno\u001b[0m:\u001b[0m\u001b[33m25\u001b[0m:\u001b[0m\u001b[33m14\u001b[0m\n",
+      "message": "",
       "name": "libc/main.wasm",
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
-      "message": "\u001b[0m\u001b[1m\u001b[31merror\u001b[0m: Uncaught ReferenceError: process is not defined\nconst args = process.argv.slice(2);\n\u001b[0m\u001b[31m             ^\u001b[0m\n    at \u001b[0m\u001b[36mfile:///home/runner/work/wasi-test-runners/wasi-test-runners/tools/run-deno\u001b[0m:\u001b[0m\u001b[33m25\u001b[0m:\u001b[0m\u001b[33m14\u001b[0m\n",
+      "message": "",
       "name": "libc/clock_getres.wasm",
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
-      "message": "--- proc_exit-success.status\t2021-06-26 22:02:43.747409835 +0000\n+++ /tmp/tmp.ePrmwPnDKm/status\t2021-06-26 22:02:46.939431826 +0000\n@@ -1 +1 @@\n-0\n+1\n",
+      "message": "",
       "name": "core/proc_exit-success.wasm",
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
-      "message": "\u001b[0m\u001b[1m\u001b[31merror\u001b[0m: Uncaught ReferenceError: process is not defined\nconst args = process.argv.slice(2);\n\u001b[0m\u001b[31m             ^\u001b[0m\n    at \u001b[0m\u001b[36mfile:///home/runner/work/wasi-test-runners/wasi-test-runners/tools/run-deno\u001b[0m:\u001b[0m\u001b[33m25\u001b[0m:\u001b[0m\u001b[33m14\u001b[0m\n",
+      "message": "",
       "name": "core/clock_get_res-monotonic.wasm",
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
-      "message": "\u001b[0m\u001b[1m\u001b[31merror\u001b[0m: Uncaught ReferenceError: process is not defined\nconst args = process.argv.slice(2);\n\u001b[0m\u001b[31m             ^\u001b[0m\n    at \u001b[0m\u001b[36mfile:///home/runner/work/wasi-test-runners/wasi-test-runners/tools/run-deno\u001b[0m:\u001b[0m\u001b[33m25\u001b[0m:\u001b[0m\u001b[33m14\u001b[0m\n",
+      "message": "",
       "name": "core/start.wasm",
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
-      "message": "\u001b[0m\u001b[1m\u001b[31merror\u001b[0m: Uncaught ReferenceError: process is not defined\nconst args = process.argv.slice(2);\n\u001b[0m\u001b[31m             ^\u001b[0m\n    at \u001b[0m\u001b[36mfile:///home/runner/work/wasi-test-runners/wasi-test-runners/tools/run-deno\u001b[0m:\u001b[0m\u001b[33m25\u001b[0m:\u001b[0m\u001b[33m14\u001b[0m\n",
+      "message": "",
       "name": "core/clock_get_res-process-cputime-id.wasm",
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "message": "",
@@ -76,79 +76,79 @@
       "status": "PASS"
     },
     {
-      "message": "\u001b[0m\u001b[1m\u001b[31merror\u001b[0m: Uncaught ReferenceError: process is not defined\nconst args = process.argv.slice(2);\n\u001b[0m\u001b[31m             ^\u001b[0m\n    at \u001b[0m\u001b[36mfile:///home/runner/work/wasi-test-runners/wasi-test-runners/tools/run-deno\u001b[0m:\u001b[0m\u001b[33m25\u001b[0m:\u001b[0m\u001b[33m14\u001b[0m\n",
+      "message": "",
       "name": "core/sched_yield.wasm",
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
-      "message": "\u001b[0m\u001b[1m\u001b[31merror\u001b[0m: Uncaught ReferenceError: process is not defined\nconst args = process.argv.slice(2);\n\u001b[0m\u001b[31m             ^\u001b[0m\n    at \u001b[0m\u001b[36mfile:///home/runner/work/wasi-test-runners/wasi-test-runners/tools/run-deno\u001b[0m:\u001b[0m\u001b[33m25\u001b[0m:\u001b[0m\u001b[33m14\u001b[0m\n",
+      "message": "",
       "name": "core/clock_get_res-realtime.wasm",
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
-      "message": "\u001b[0m\u001b[1m\u001b[31merror\u001b[0m: Uncaught ReferenceError: process is not defined\nconst args = process.argv.slice(2);\n\u001b[0m\u001b[31m             ^\u001b[0m\n    at \u001b[0m\u001b[36mfile:///home/runner/work/wasi-test-runners/wasi-test-runners/tools/run-deno\u001b[0m:\u001b[0m\u001b[33m25\u001b[0m:\u001b[0m\u001b[33m14\u001b[0m\n",
+      "message": "",
       "name": "core/clock_get_res-thread-cputime-id.wasm",
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
-      "message": "\u001b[0m\u001b[1m\u001b[31merror\u001b[0m: Uncaught ReferenceError: process is not defined\nconst args = process.argv.slice(2);\n\u001b[0m\u001b[31m             ^\u001b[0m\n    at \u001b[0m\u001b[36mfile:///home/runner/work/wasi-test-runners/wasi-test-runners/tools/run-deno\u001b[0m:\u001b[0m\u001b[33m25\u001b[0m:\u001b[0m\u001b[33m14\u001b[0m\n",
+      "message": "",
       "name": "libstd/io_stdin-hello.wasm",
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
-      "message": "\u001b[0m\u001b[1m\u001b[31merror\u001b[0m: Uncaught ReferenceError: process is not defined\nconst args = process.argv.slice(2);\n\u001b[0m\u001b[31m             ^\u001b[0m\n    at \u001b[0m\u001b[36mfile:///home/runner/work/wasi-test-runners/wasi-test-runners/tools/run-deno\u001b[0m:\u001b[0m\u001b[33m25\u001b[0m:\u001b[0m\u001b[33m14\u001b[0m\n",
+      "message": "",
       "name": "libstd/env_vars-none.wasm",
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
-      "message": "\u001b[0m\u001b[1m\u001b[31merror\u001b[0m: Uncaught ReferenceError: process is not defined\nconst args = process.argv.slice(2);\n\u001b[0m\u001b[31m             ^\u001b[0m\n    at \u001b[0m\u001b[36mfile:///home/runner/work/wasi-test-runners/wasi-test-runners/tools/run-deno\u001b[0m:\u001b[0m\u001b[33m25\u001b[0m:\u001b[0m\u001b[33m14\u001b[0m\n",
+      "message": "",
       "name": "libstd/fs_rename.wasm",
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
-      "message": "--- io_stdout-hello.stdout\t2021-06-26 22:02:43.799410193 +0000\n+++ /tmp/tmp.YHOBL7OvlO/stdout\t2021-06-26 22:02:47.487435601 +0000\n@@ -1 +0,0 @@\n-Hello, stdout!\n",
+      "message": "",
       "name": "libstd/io_stdout-hello.wasm",
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
-      "message": "\u001b[0m\u001b[1m\u001b[31merror\u001b[0m: Uncaught ReferenceError: process is not defined\nconst args = process.argv.slice(2);\n\u001b[0m\u001b[31m             ^\u001b[0m\n    at \u001b[0m\u001b[36mfile:///home/runner/work/wasi-test-runners/wasi-test-runners/tools/run-deno\u001b[0m:\u001b[0m\u001b[33m25\u001b[0m:\u001b[0m\u001b[33m14\u001b[0m\n",
+      "message": "",
       "name": "libstd/fs_create_dir.wasm",
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
-      "message": "\u001b[0m\u001b[1m\u001b[31merror\u001b[0m: Uncaught ReferenceError: process is not defined\nconst args = process.argv.slice(2);\n\u001b[0m\u001b[31m             ^\u001b[0m\n    at \u001b[0m\u001b[36mfile:///home/runner/work/wasi-test-runners/wasi-test-runners/tools/run-deno\u001b[0m:\u001b[0m\u001b[33m25\u001b[0m:\u001b[0m\u001b[33m14\u001b[0m\n",
+      "message": "",
       "name": "libstd/env_args-hello.wasm",
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
-      "message": "\u001b[0m\u001b[1m\u001b[31merror\u001b[0m: Uncaught ReferenceError: process is not defined\nconst args = process.argv.slice(2);\n\u001b[0m\u001b[31m             ^\u001b[0m\n    at \u001b[0m\u001b[36mfile:///home/runner/work/wasi-test-runners/wasi-test-runners/tools/run-deno\u001b[0m:\u001b[0m\u001b[33m25\u001b[0m:\u001b[0m\u001b[33m14\u001b[0m\n",
+      "message": "",
       "name": "libstd/main.wasm",
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
-      "message": "\u001b[0m\u001b[1m\u001b[31merror\u001b[0m: Uncaught ReferenceError: process is not defined\nconst args = process.argv.slice(2);\n\u001b[0m\u001b[31m             ^\u001b[0m\n    at \u001b[0m\u001b[36mfile:///home/runner/work/wasi-test-runners/wasi-test-runners/tools/run-deno\u001b[0m:\u001b[0m\u001b[33m25\u001b[0m:\u001b[0m\u001b[33m14\u001b[0m\n",
+      "message": "",
       "name": "libstd/fs_file_create.wasm",
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
-      "message": "--- io_stderr-hello.stderr\t2021-06-26 22:02:43.787410110 +0000\n+++ /tmp/tmp.mrnaxAf8FT/stderr\t2021-06-26 22:02:47.799437751 +0000\n@@ -1 +1,4 @@\n-Hello, stderr!\n+\u001b[0m\u001b[1m\u001b[31merror\u001b[0m: Uncaught ReferenceError: process is not defined\n+const args = process.argv.slice(2);\n+\u001b[0m\u001b[31m             ^\u001b[0m\n+    at \u001b[0m\u001b[36mfile:///home/runner/work/wasi-test-runners/wasi-test-runners/tools/run-deno\u001b[0m:\u001b[0m\u001b[33m25\u001b[0m:\u001b[0m\u001b[33m14\u001b[0m\n",
+      "message": "",
       "name": "libstd/io_stderr-hello.wasm",
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
-      "message": "--- process_exit.status\t2021-06-26 22:02:43.803410220 +0000\n+++ /tmp/tmp.1SMYHxEimy/status\t2021-06-26 22:02:47.855438136 +0000\n@@ -1 +1 @@\n-120\n+1\n",
+      "message": "",
       "name": "libstd/process_exit.wasm",
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
-      "message": "\u001b[0m\u001b[1m\u001b[31merror\u001b[0m: Uncaught ReferenceError: process is not defined\nconst args = process.argv.slice(2);\n\u001b[0m\u001b[31m             ^\u001b[0m\n    at \u001b[0m\u001b[36mfile:///home/runner/work/wasi-test-runners/wasi-test-runners/tools/run-deno\u001b[0m:\u001b[0m\u001b[33m25\u001b[0m:\u001b[0m\u001b[33m14\u001b[0m\n",
+      "message": "",
       "name": "libstd/env_vars-hello.wasm",
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
-      "message": "\u001b[0m\u001b[1m\u001b[31merror\u001b[0m: Uncaught ReferenceError: process is not defined\nconst args = process.argv.slice(2);\n\u001b[0m\u001b[31m             ^\u001b[0m\n    at \u001b[0m\u001b[36mfile:///home/runner/work/wasi-test-runners/wasi-test-runners/tools/run-deno\u001b[0m:\u001b[0m\u001b[33m25\u001b[0m:\u001b[0m\u001b[33m14\u001b[0m\n",
+      "message": "",
       "name": "libstd/env_args-none.wasm",
-      "status": "FAIL"
+      "status": "PASS"
     }
   ],
   "runtime": {

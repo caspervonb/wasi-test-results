@@ -1,7 +1,7 @@
 {
   "results": [
     {
-      "message": "wasi.js:129\n        throw err;\n        ^\n\nTypeError: wasm function signature contains illegal type\n    at __clock_gettime (<anonymous>:wasm-function[8]:0x36b)\n    at __original_main (<anonymous>:wasm-function[7]:0x1ec)\n    at _start (<anonymous>:wasm-function[6]:0x186)\n    at WASI.start (wasi.js:126:7)\n    at Object.<anonymous> (/home/runner/work/wasi-test-runners/wasi-test-runners/tools/run-node:57:6)\n    at Module._compile (internal/modules/cjs/loader.js:1068:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)\n    at Module.load (internal/modules/cjs/loader.js:933:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:774:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n",
+      "message": "wasi.js:129\n        throw err;\n        ^\n\nTypeError: wasm function signature contains illegal type\n    at __clock_gettime (<anonymous>:wasm-function[8]:0x36b)\n    at __original_main (<anonymous>:wasm-function[7]:0x1ec)\n    at _start (<anonymous>:wasm-function[6]:0x186)\n    at WASI.start (wasi.js:126:7)\n    at Object.<anonymous> (/home/runner/work/wasi-test-runners/wasi-test-runners/tools/run-node:60:6)\n    at Module._compile (internal/modules/cjs/loader.js:1068:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)\n    at Module.load (internal/modules/cjs/loader.js:933:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:774:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n",
       "name": "libc/clock_gettime.wasm",
       "status": "FAIL"
     },
@@ -26,9 +26,9 @@
       "status": "PASS"
     },
     {
-      "message": "internal/fs/utils.js:312\n    throw err;\n    ^\n\nError: ENOENT: no such file or directory, open '--env'\n    at Object.openSync (fs.js:498:3)\n    at readFileSync (fs.js:394:35)\n    at Object.<anonymous> (/home/runner/work/wasi-test-runners/wasi-test-runners/tools/run-node:54:37)\n    at Module._compile (internal/modules/cjs/loader.js:1068:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)\n    at Module.load (internal/modules/cjs/loader.js:933:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:774:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n    at internal/main/run_main_module.js:17:47 {\n  errno: -2,\n  syscall: 'open',\n  code: 'ENOENT',\n  path: '--env'\n}\n",
+      "message": "",
       "name": "libc/getenv-hello.wasm",
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "message": "",
@@ -101,9 +101,9 @@
       "status": "PASS"
     },
     {
-      "message": "internal/fs/utils.js:312\n    throw err;\n    ^\n\nError: ENOENT: no such file or directory, open '--dir'\n    at Object.openSync (fs.js:498:3)\n    at readFileSync (fs.js:394:35)\n    at Object.<anonymous> (/home/runner/work/wasi-test-runners/wasi-test-runners/tools/run-node:54:37)\n    at Module._compile (internal/modules/cjs/loader.js:1068:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)\n    at Module.load (internal/modules/cjs/loader.js:933:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:774:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n    at internal/main/run_main_module.js:17:47 {\n  errno: -2,\n  syscall: 'open',\n  code: 'ENOENT',\n  path: '--dir'\n}\n",
+      "message": "",
       "name": "libstd/fs_rename.wasm",
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "message": "",
@@ -111,14 +111,14 @@
       "status": "PASS"
     },
     {
-      "message": "internal/fs/utils.js:312\n    throw err;\n    ^\n\nError: ENOENT: no such file or directory, open '--dir'\n    at Object.openSync (fs.js:498:3)\n    at readFileSync (fs.js:394:35)\n    at Object.<anonymous> (/home/runner/work/wasi-test-runners/wasi-test-runners/tools/run-node:54:37)\n    at Module._compile (internal/modules/cjs/loader.js:1068:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)\n    at Module.load (internal/modules/cjs/loader.js:933:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:774:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n    at internal/main/run_main_module.js:17:47 {\n  errno: -2,\n  syscall: 'open',\n  code: 'ENOENT',\n  path: '--dir'\n}\n",
+      "message": "",
       "name": "libstd/fs_create_dir.wasm",
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
-      "message": "thread 'main' panicked at 'assertion failed: `(left == right)`\n  left: `1`,\n right: `2`', out/env_args-hello.rs:5:3\nnote: run with `RUST_BACKTRACE=1` environment variable to display a backtrace\nwasi.js:129\n        throw err;\n        ^\n\nRuntimeError: unreachable\n    at __rust_start_panic (<anonymous>:wasm-function[344]:0xc3d9)\n    at rust_panic (<anonymous>:wasm-function[337]:0xc084)\n    at _ZN3std9panicking20rust_panic_with_hook17h072472ae3822b936E (<anonymous>:wasm-function[330]:0xbcfa)\n    at _ZN3std9panicking19begin_panic_handler28_$u7b$$u7b$closure$u7d$$u7d$17h9cf3525ad5c951acE (<anonymous>:wasm-function[317]:0xb3f7)\n    at _ZN3std10sys_common9backtrace26__rust_end_short_backtrace17hd5c0ee56cf106280E (<anonymous>:wasm-function[316]:0xb338)\n    at rust_begin_unwind (<anonymous>:wasm-function[329]:0xbb00)\n    at _ZN3std9panicking15begin_panic_fmt17ha973365f16566a78E (<anonymous>:wasm-function[274]:0x8b49)\n    at _ZN14env_args_hello4main17h8164f53d110eaa2fE (<anonymous>:wasm-function[149]:0x49c3)\n    at _ZN4core3ops8function6FnOnce9call_once17h557567b9b0ce5ea1E (<anonymous>:wasm-function[184]:0x5fe3)\n    at _ZN3std10sys_common9backtrace28__rust_begin_short_backtrace17hf8de126cba3039feE (<anonymous>:wasm-function[117]:0x3965)\n",
+      "message": "",
       "name": "libstd/env_args-hello.wasm",
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "message": "",
@@ -126,7 +126,7 @@
       "status": "PASS"
     },
     {
-      "message": "internal/fs/utils.js:312\n    throw err;\n    ^\n\nError: ENOENT: no such file or directory, open '--dir'\n    at Object.openSync (fs.js:498:3)\n    at readFileSync (fs.js:394:35)\n    at Object.<anonymous> (/home/runner/work/wasi-test-runners/wasi-test-runners/tools/run-node:54:37)\n    at Module._compile (internal/modules/cjs/loader.js:1068:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)\n    at Module.load (internal/modules/cjs/loader.js:933:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:774:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n    at internal/main/run_main_module.js:17:47 {\n  errno: -2,\n  syscall: 'open',\n  code: 'ENOENT',\n  path: '--dir'\n}\n",
+      "message": "wasi.js:129\n        throw err;\n        ^\n\nTypeError: wasm function signature contains illegal type\n    at _ZN4wasi13lib_generated9path_open17h7be5efe85832c657E (<anonymous>:wasm-function[257]:0x9932)\n    at _ZN3std3sys4wasi2fs7open_at17hb133f445a76a2b8eE (<anonymous>:wasm-function[196]:0x6c1b)\n    at _ZN3std2fs11OpenOptions5_open17h322525a136790f3eE (<anonymous>:wasm-function[195]:0x6ae3)\n    at _ZN3std2fs11OpenOptions4open17h194213abeaab9febE (<anonymous>:wasm-function[108]:0x2f6d)\n    at _ZN3std2fs4File6create17h05afb998755dc877E (<anonymous>:wasm-function[109]:0x3059)\n    at _ZN14fs_file_create4main17ha07565d96af15e95E (<anonymous>:wasm-function[60]:0x1a26)\n    at _ZN4core3ops8function6FnOnce9call_once17h292c5830437c3611E (<anonymous>:wasm-function[39]:0x153a)\n    at _ZN3std10sys_common9backtrace28__rust_begin_short_backtrace17haa9f35a7e7ef8b7cE (<anonymous>:wasm-function[28]:0x10db)\n    at _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hb5a1610fd68a8a16E (<anonymous>:wasm-function[64]:0x1c28)\n    at _ZN3std2rt19lang_start_internal17ha925d42982681c99E (<anonymous>:wasm-function[245]:0x956c)\n",
       "name": "libstd/fs_file_create.wasm",
       "status": "FAIL"
     },
@@ -141,14 +141,14 @@
       "status": "PASS"
     },
     {
-      "message": "internal/fs/utils.js:312\n    throw err;\n    ^\n\nError: ENOENT: no such file or directory, open '--env'\n    at Object.openSync (fs.js:498:3)\n    at readFileSync (fs.js:394:35)\n    at Object.<anonymous> (/home/runner/work/wasi-test-runners/wasi-test-runners/tools/run-node:54:37)\n    at Module._compile (internal/modules/cjs/loader.js:1068:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)\n    at Module.load (internal/modules/cjs/loader.js:933:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:774:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n    at internal/main/run_main_module.js:17:47 {\n  errno: -2,\n  syscall: 'open',\n  code: 'ENOENT',\n  path: '--env'\n}\n",
+      "message": "",
       "name": "libstd/env_vars-hello.wasm",
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
-      "message": "thread 'main' panicked at 'assertion failed: `(left == right)`\n  left: `0`,\n right: `1`', out/env_args-none.rs:5:3\nnote: run with `RUST_BACKTRACE=1` environment variable to display a backtrace\nwasi.js:129\n        throw err;\n        ^\n\nRuntimeError: unreachable\n    at __rust_start_panic (<anonymous>:wasm-function[344]:0xc1c6)\n    at rust_panic (<anonymous>:wasm-function[337]:0xbe71)\n    at _ZN3std9panicking20rust_panic_with_hook17h072472ae3822b936E (<anonymous>:wasm-function[330]:0xbae7)\n    at _ZN3std9panicking19begin_panic_handler28_$u7b$$u7b$closure$u7d$$u7d$17h9cf3525ad5c951acE (<anonymous>:wasm-function[317]:0xb1e4)\n    at _ZN3std10sys_common9backtrace26__rust_end_short_backtrace17hd5c0ee56cf106280E (<anonymous>:wasm-function[316]:0xb125)\n    at rust_begin_unwind (<anonymous>:wasm-function[329]:0xb8ed)\n    at _ZN3std9panicking15begin_panic_fmt17ha973365f16566a78E (<anonymous>:wasm-function[274]:0x8936)\n    at _ZN13env_args_none4main17hb96fc403d746b960E (<anonymous>:wasm-function[160]:0x5061)\n    at _ZN4core3ops8function6FnOnce9call_once17h934eb4ca115b8530E (<anonymous>:wasm-function[184]:0x5d90)\n    at _ZN3std10sys_common9backtrace28__rust_begin_short_backtrace17hed112aadf1d2ceb8E (<anonymous>:wasm-function[117]:0x3951)\n",
+      "message": "",
       "name": "libstd/env_args-none.wasm",
-      "status": "FAIL"
+      "status": "PASS"
     }
   ],
   "runtime": {
