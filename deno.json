@@ -6,7 +6,7 @@
       "status": "FAIL"
     },
     {
-      "message": "--- exit-success.status\t2021-06-26 22:00:35.359226577 +0000\n+++ /tmp/tmp.8OT8ZuIIPQ/status\t2021-06-26 22:00:37.987332687 +0000\n@@ -1 +1 @@\n-0\n+1\n",
+      "message": "--- exit-success.status\t2021-06-26 22:02:43.747409835 +0000\n+++ /tmp/tmp.eAWG3jw9X7/status\t2021-06-26 22:02:46.447428436 +0000\n@@ -1 +1 @@\n-0\n+1\n",
       "name": "libc/exit-success.wasm",
       "status": "FAIL"
     },
@@ -21,7 +21,7 @@
       "status": "FAIL"
     },
     {
-      "message": "--- stderr-hello.stderr\t2021-06-26 22:00:35.359226577 +0000\n+++ /tmp/tmp.5JRKULaMCJ/stderr\t2021-06-26 22:00:38.143338985 +0000\n@@ -1 +1,4 @@\n-Hello, stderr!\n+\u001b[0m\u001b[1m\u001b[31merror\u001b[0m: Uncaught ReferenceError: process is not defined\n+const args = process.argv.slice(2);\n+\u001b[0m\u001b[31m             ^\u001b[0m\n+    at \u001b[0m\u001b[36mfile:///home/runner/work/wasi-test-runners/wasi-test-runners/tools/run-deno\u001b[0m:\u001b[0m\u001b[33m25\u001b[0m:\u001b[0m\u001b[33m14\u001b[0m\n",
+      "message": "--- stderr-hello.stderr\t2021-06-26 22:02:43.747409835 +0000\n+++ /tmp/tmp.HwgEBPvyEe/stderr\t2021-06-26 22:02:46.611429566 +0000\n@@ -1 +1,4 @@\n-Hello, stderr!\n+\u001b[0m\u001b[1m\u001b[31merror\u001b[0m: Uncaught ReferenceError: process is not defined\n+const args = process.argv.slice(2);\n+\u001b[0m\u001b[31m             ^\u001b[0m\n+    at \u001b[0m\u001b[36mfile:///home/runner/work/wasi-test-runners/wasi-test-runners/tools/run-deno\u001b[0m:\u001b[0m\u001b[33m25\u001b[0m:\u001b[0m\u001b[33m14\u001b[0m\n",
       "name": "libc/stderr-hello.wasm",
       "status": "FAIL"
     },
@@ -31,7 +31,7 @@
       "status": "FAIL"
     },
     {
-      "message": "--- stdout-hello.stdout\t2021-06-26 22:00:35.359226577 +0000\n+++ /tmp/tmp.KjiasPFJCP/stdout\t2021-06-26 22:00:38.195341085 +0000\n@@ -1 +0,0 @@\n-Hello, stdout!\n",
+      "message": "--- stdout-hello.stdout\t2021-06-26 22:02:43.747409835 +0000\n+++ /tmp/tmp.YRk6dBZRLt/stdout\t2021-06-26 22:02:46.675430007 +0000\n@@ -1 +0,0 @@\n-Hello, stdout!\n",
       "name": "libc/stdout-hello.wasm",
       "status": "FAIL"
     },
@@ -51,7 +51,7 @@
       "status": "FAIL"
     },
     {
-      "message": "--- proc_exit-success.status\t2021-06-26 22:00:35.355226415 +0000\n+++ /tmp/tmp.JZkJYfhnMV/status\t2021-06-26 22:00:38.387348837 +0000\n@@ -1 +1 @@\n-0\n+1\n",
+      "message": "--- proc_exit-success.status\t2021-06-26 22:02:43.747409835 +0000\n+++ /tmp/tmp.ePrmwPnDKm/status\t2021-06-26 22:02:46.939431826 +0000\n@@ -1 +1 @@\n-0\n+1\n",
       "name": "core/proc_exit-success.wasm",
       "status": "FAIL"
     },
@@ -106,7 +106,7 @@
       "status": "FAIL"
     },
     {
-      "message": "--- io_stdout-hello.stdout\t2021-06-26 22:00:35.395228030 +0000\n+++ /tmp/tmp.JF3RJdsoDm/stdout\t2021-06-26 22:00:38.811365957 +0000\n@@ -1 +0,0 @@\n-Hello, stdout!\n",
+      "message": "--- io_stdout-hello.stdout\t2021-06-26 22:02:43.799410193 +0000\n+++ /tmp/tmp.YHOBL7OvlO/stdout\t2021-06-26 22:02:47.487435601 +0000\n@@ -1 +0,0 @@\n-Hello, stdout!\n",
       "name": "libstd/io_stdout-hello.wasm",
       "status": "FAIL"
     },
@@ -131,12 +131,12 @@
       "status": "FAIL"
     },
     {
-      "message": "--- io_stderr-hello.stderr\t2021-06-26 22:00:35.387227707 +0000\n+++ /tmp/tmp.STxrnog934/stderr\t2021-06-26 22:00:39.055375809 +0000\n@@ -1 +1,4 @@\n-Hello, stderr!\n+\u001b[0m\u001b[1m\u001b[31merror\u001b[0m: Uncaught ReferenceError: process is not defined\n+const args = process.argv.slice(2);\n+\u001b[0m\u001b[31m             ^\u001b[0m\n+    at \u001b[0m\u001b[36mfile:///home/runner/work/wasi-test-runners/wasi-test-runners/tools/run-deno\u001b[0m:\u001b[0m\u001b[33m25\u001b[0m:\u001b[0m\u001b[33m14\u001b[0m\n",
+      "message": "--- io_stderr-hello.stderr\t2021-06-26 22:02:43.787410110 +0000\n+++ /tmp/tmp.mrnaxAf8FT/stderr\t2021-06-26 22:02:47.799437751 +0000\n@@ -1 +1,4 @@\n-Hello, stderr!\n+\u001b[0m\u001b[1m\u001b[31merror\u001b[0m: Uncaught ReferenceError: process is not defined\n+const args = process.argv.slice(2);\n+\u001b[0m\u001b[31m             ^\u001b[0m\n+    at \u001b[0m\u001b[36mfile:///home/runner/work/wasi-test-runners/wasi-test-runners/tools/run-deno\u001b[0m:\u001b[0m\u001b[33m25\u001b[0m:\u001b[0m\u001b[33m14\u001b[0m\n",
       "name": "libstd/io_stderr-hello.wasm",
       "status": "FAIL"
     },
     {
-      "message": "--- process_exit.status\t2021-06-26 22:00:35.399228192 +0000\n+++ /tmp/tmp.5WdSAydTEN/status\t2021-06-26 22:00:39.099377585 +0000\n@@ -1 +1 @@\n-120\n+1\n",
+      "message": "--- process_exit.status\t2021-06-26 22:02:43.803410220 +0000\n+++ /tmp/tmp.1SMYHxEimy/status\t2021-06-26 22:02:47.855438136 +0000\n@@ -1 +1 @@\n-120\n+1\n",
       "name": "libstd/process_exit.wasm",
       "status": "FAIL"
     },
