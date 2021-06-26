@@ -101,7 +101,7 @@
       "status": "PASS"
     },
     {
-      "message": "thread 'main' panicked at 'assertion failed: fs::rename(old_path, new_path).is_ok()', out/fs_rename.rs:7:3\nnote: run with `RUST_BACKTRACE=1` environment variable to display a backtrace\nerror: failed to run `fs_rename.wasm`\n\u2502   1: WASI execution failed\n\u2502   2: failed to run WASI `_start` function\n\u2502   3: RuntimeError: unreachable\n           at __rust_start_panic (fs_rename.wasm[224]:0x81e7)\n           at rust_panic (fs_rename.wasm[216]:0x7c7c)\n           at std::panicking::rust_panic_with_hook::h072472ae3822b936 (fs_rename.wasm[209]:0x78f2)\n           at std::panicking::begin_panic::{{closure}}::h2a374620ef6f2cc5 (fs_rename.wasm[68]:0x1c37)\n           at std::sys_common::backtrace::__rust_end_short_backtrace::hf245e7483f9510e0 (fs_rename.wasm[100]:0x2519)\n           at std::panicking::begin_panic::h888d3b59d2866ba8 (fs_rename.wasm[66]:0x1b33)\n           at fs_rename::main::hb003b0d8655f269c (fs_rename.wasm[38]:0x13df)\n           at core::ops::function::FnOnce::call_once::hcbdb76889f1ca801 (fs_rename.wasm[49]:0x160a)\n           at std::sys_common::backtrace::__rust_begin_short_backtrace::h1465deaa37785df0 (fs_rename.wasm[101]:0x2549)\n           at std::rt::lang_start::{{closure}}::h900df333b485aa03 (fs_rename.wasm[42]:0x148e)\n           at std::rt::lang_start_internal::ha925d42982681c99 (fs_rename.wasm[217]:0x7d8d)\n           at std::rt::lang_start::hed43d4d2589c3395 (fs_rename.wasm[41]:0x1462)\n           at __original_main (fs_rename.wasm[39]:0x13fd)\n           at _start (fs_rename.wasm[8]:0x42c)\n\u2570\u2500> 4: unreachable\n",
+      "message": "error: The following required arguments were not provided:\n    <FILE>\n\nUSAGE:\n    wasmer run <FILE> <--dir <DIR>...>\n\nFor more information try --help\n",
       "name": "libstd/fs_rename.wasm",
       "status": "FAIL"
     },
@@ -111,9 +111,9 @@
       "status": "PASS"
     },
     {
-      "message": "",
+      "message": "error: The following required arguments were not provided:\n    <FILE>\n\nUSAGE:\n    wasmer run <FILE> <--dir <DIR>...>\n\nFor more information try --help\n",
       "name": "libstd/fs_create_dir.wasm",
-      "status": "PASS"
+      "status": "FAIL"
     },
     {
       "message": "",
@@ -126,9 +126,9 @@
       "status": "PASS"
     },
     {
-      "message": "",
+      "message": "error: The following required arguments were not provided:\n    <FILE>\n\nUSAGE:\n    wasmer run <FILE> <--dir <DIR>...>\n\nFor more information try --help\n",
       "name": "libstd/fs_file_create.wasm",
-      "status": "PASS"
+      "status": "FAIL"
     },
     {
       "message": "",
