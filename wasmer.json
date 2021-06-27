@@ -52,6 +52,11 @@
     },
     {
       "message": "",
+      "name": "core/fd_stat_get-stdin.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
       "name": "core/proc_exit-success.wasm",
       "status": "PASS"
     },
@@ -72,6 +77,11 @@
     },
     {
       "message": "",
+      "name": "core/fd_stat_get-stdout.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
       "name": "core/proc_exit-failure.wasm",
       "status": "PASS"
     },
@@ -83,6 +93,11 @@
     {
       "message": "",
       "name": "core/clock_get_res-realtime.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
+      "name": "core/fd_stat_get-stderr.wasm",
       "status": "PASS"
     },
     {

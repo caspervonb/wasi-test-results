@@ -52,6 +52,11 @@
     },
     {
       "message": "",
+      "name": "core/fd_stat_get-stdin.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
       "name": "core/proc_exit-success.wasm",
       "status": "PASS"
     },
@@ -66,9 +71,14 @@
       "status": "PASS"
     },
     {
-      "message": "abort:  in out/clock_get_res-process-cputime-id.ts(8:1)\nError: failed to run main module `clock_get_res-process-cputime-id.wasm`\n\nCaused by:\n    0: failed to invoke command default\n    1: exit with invalid exit status outside of [0..126)\n       wasm backtrace:\n           0:  0x421 - <unknown>!<wasm function 8>\n           1:  0x44b - <unknown>!<wasm function 9>\n           2:  0x477 - <unknown>!<wasm function 10>\n       \n",
+      "message": "abort:  in out/clock_get_res-process-cputime-id.ts(8:1)\nError: failed to run main module `clock_get_res-process-cputime-id.wasm`\n\nCaused by:\n    0: failed to invoke command default\n    1: exit with invalid exit status outside of [0..126)\n       wasm backtrace:\n           0:  0x4a4 - <unknown>!<wasm function 9>\n           1:  0x4c7 - <unknown>!<wasm function 10>\n           2:  0x4f4 - <unknown>!<wasm function 11>\n       \n",
       "name": "core/clock_get_res-process-cputime-id.wasm",
       "status": "FAIL"
+    },
+    {
+      "message": "",
+      "name": "core/fd_stat_get-stdout.wasm",
+      "status": "PASS"
     },
     {
       "message": "",
@@ -86,7 +96,12 @@
       "status": "PASS"
     },
     {
-      "message": "abort:  in out/clock_get_res-thread-cputime-id.ts(8:1)\nError: failed to run main module `clock_get_res-thread-cputime-id.wasm`\n\nCaused by:\n    0: failed to invoke command default\n    1: exit with invalid exit status outside of [0..126)\n       wasm backtrace:\n           0:  0x421 - <unknown>!<wasm function 8>\n           1:  0x44b - <unknown>!<wasm function 9>\n           2:  0x477 - <unknown>!<wasm function 10>\n       \n",
+      "message": "",
+      "name": "core/fd_stat_get-stderr.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "abort:  in out/clock_get_res-thread-cputime-id.ts(8:1)\nError: failed to run main module `clock_get_res-thread-cputime-id.wasm`\n\nCaused by:\n    0: failed to invoke command default\n    1: exit with invalid exit status outside of [0..126)\n       wasm backtrace:\n           0:  0x4a4 - <unknown>!<wasm function 9>\n           1:  0x4c7 - <unknown>!<wasm function 10>\n           2:  0x4f4 - <unknown>!<wasm function 11>\n       \n",
       "name": "core/clock_get_res-thread-cputime-id.wasm",
       "status": "FAIL"
     },

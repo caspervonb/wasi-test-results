@@ -52,6 +52,11 @@
     },
     {
       "message": "",
+      "name": "core/fd_stat_get-stdin.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
       "name": "core/proc_exit-success.wasm",
       "status": "PASS"
     },
@@ -72,6 +77,11 @@
     },
     {
       "message": "",
+      "name": "core/fd_stat_get-stdout.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
       "name": "core/proc_exit-failure.wasm",
       "status": "PASS"
     },
@@ -83,6 +93,11 @@
     {
       "message": "",
       "name": "core/clock_get_res-realtime.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
+      "name": "core/fd_stat_get-stderr.wasm",
       "status": "PASS"
     },
     {
@@ -126,7 +141,7 @@
       "status": "PASS"
     },
     {
-      "message": "wasi.js:129\n        throw err;\n        ^\n\nTypeError: wasm function signature contains illegal type\n    at _ZN4wasi13lib_generated9path_open17h7be5efe85832c657E (<anonymous>:wasm-function[257]:0x9932)\n    at _ZN3std3sys4wasi2fs7open_at17hb133f445a76a2b8eE (<anonymous>:wasm-function[196]:0x6c1b)\n    at _ZN3std2fs11OpenOptions5_open17h322525a136790f3eE (<anonymous>:wasm-function[195]:0x6ae3)\n    at _ZN3std2fs11OpenOptions4open17h194213abeaab9febE (<anonymous>:wasm-function[108]:0x2f6d)\n    at _ZN3std2fs4File6create17h05afb998755dc877E (<anonymous>:wasm-function[109]:0x3059)\n    at _ZN14fs_file_create4main17ha07565d96af15e95E (<anonymous>:wasm-function[60]:0x1a26)\n    at _ZN4core3ops8function6FnOnce9call_once17h292c5830437c3611E (<anonymous>:wasm-function[39]:0x153a)\n    at _ZN3std10sys_common9backtrace28__rust_begin_short_backtrace17haa9f35a7e7ef8b7cE (<anonymous>:wasm-function[28]:0x10db)\n    at _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17hb5a1610fd68a8a16E (<anonymous>:wasm-function[64]:0x1c28)\n    at _ZN3std2rt19lang_start_internal17ha925d42982681c99E (<anonymous>:wasm-function[245]:0x956c)\n",
+      "message": "wasi.js:129\n        throw err;\n        ^\n\nTypeError: wasm function signature contains illegal type\n    at _ZN4wasi13lib_generated9path_open17h19f647ae99559cb0E (<anonymous>:wasm-function[211]:0x833c)\n    at _ZN3std3sys4wasi2fs7open_at17h74f14f61a720bd23E (<anonymous>:wasm-function[148]:0x5ef9)\n    at _ZN3std2fs11OpenOptions5_open17h3e97b5393a9d5830E (<anonymous>:wasm-function[153]:0x602b)\n    at _ZN3std2fs11OpenOptions4open17h8a8913535f238f10E (<anonymous>:wasm-function[48]:0xfbe)\n    at _ZN3std2fs4File6create17h788cc03ce29f3913E (<anonymous>:wasm-function[49]:0x10aa)\n    at _ZN14fs_file_create4main17h84f2bf14b8a0f83aE (<anonymous>:wasm-function[42]:0xcec)\n    at _ZN4core3ops8function6FnOnce9call_once17h88c2389a52a74ab2E (<anonymous>:wasm-function[28]:0xb1f)\n    at _ZN3std10sys_common9backtrace28__rust_begin_short_backtrace17h378855a4d7bb8293E (<anonymous>:wasm-function[24]:0x8fc)\n    at _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h2975def41d13a053E (<anonymous>:wasm-function[56]:0x1b99)\n    at _ZN3std2rt19lang_start_internal17h3bc712c5a299b4e4E (<anonymous>:wasm-function[199]:0x7fce)\n",
       "name": "libstd/fs_file_create.wasm",
       "status": "FAIL"
     },

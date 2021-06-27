@@ -51,6 +51,11 @@
       "status": "PASS"
     },
     {
+      "message": "abort:  in out/fd_stat_get-stdin.ts(21:1)\n",
+      "name": "core/fd_stat_get-stdin.wasm",
+      "status": "FAIL"
+    },
+    {
       "message": "",
       "name": "core/proc_exit-success.wasm",
       "status": "PASS"
@@ -71,6 +76,11 @@
       "status": "PASS"
     },
     {
+      "message": "abort:  in out/fd_stat_get-stdout.ts(19:1)\n",
+      "name": "core/fd_stat_get-stdout.wasm",
+      "status": "FAIL"
+    },
+    {
       "message": "",
       "name": "core/proc_exit-failure.wasm",
       "status": "PASS"
@@ -84,6 +94,11 @@
       "message": "",
       "name": "core/clock_get_res-realtime.wasm",
       "status": "PASS"
+    },
+    {
+      "message": "abort:  in out/fd_stat_get-stderr.ts(19:1)\n",
+      "name": "core/fd_stat_get-stderr.wasm",
+      "status": "FAIL"
     },
     {
       "message": "",
