@@ -26,9 +26,9 @@
       "status": "PASS"
     },
     {
-      "message": "error: The following required arguments were not provided:\n    <FILE>\n\nUSAGE:\n    wasmer run <FILE> --env <KEY=VALUE>...\n\nFor more information try --help\n",
+      "message": "",
       "name": "libc/getenv-hello.wasm",
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "message": "",
@@ -116,7 +116,7 @@
       "status": "PASS"
     },
     {
-      "message": "error: The following required arguments were not provided:\n    <FILE>\n\nUSAGE:\n    wasmer run <FILE> <--dir <DIR>...>\n\nFor more information try --help\n",
+      "message": "thread 'main' panicked at 'assertion failed: fs::rename(old_path, new_path).is_ok()', out/fs_rename.rs:7:3\nnote: run with `RUST_BACKTRACE=1` environment variable to display a backtrace\nerror: failed to run `fs_rename.wasm`\n\u2502   1: WASI execution failed\n\u2502   2: failed to run WASI `_start` function\n\u2502   3: RuntimeError: unreachable\n           at __rust_start_panic (fs_rename.wasm[178]:0x6dee)\n           at rust_panic (fs_rename.wasm[170]:0x6942)\n           at std::panicking::rust_panic_with_hook::hf735cc98c0f3e6f4 (fs_rename.wasm[163]:0x64d8)\n           at std::panicking::begin_panic_handler::{{closure}}::hb082d09953c1ceec (fs_rename.wasm[150]:0x5be2)\n           at std::sys_common::backtrace::__rust_end_short_backtrace::hac58197bca415fd5 (fs_rename.wasm[149]:0x5b51)\n           at rust_begin_unwind (fs_rename.wasm[162]:0x637c)\n           at core::panicking::panic_fmt::hf8b3045973a2d1f9 (fs_rename.wasm[243]:0xc486)\n           at core::panicking::panic::h8e85343b5340e515 (fs_rename.wasm[236]:0xb9c1)\n           at fs_rename::main::h657cb9d4b9caa57a (fs_rename.wasm[22]:0x941)\n           at core::ops::function::FnOnce::call_once::h571169ec700d8771 (fs_rename.wasm[27]:0xa4e)\n           at std::sys_common::backtrace::__rust_begin_short_backtrace::h9f1576ab9e18b81a (fs_rename.wasm[57]:0x11e4)\n           at std::rt::lang_start::{{closure}}::h10c868a0212160b1 (fs_rename.wasm[43]:0xde0)\n           at std::rt::lang_start_internal::h3bc712c5a299b4e4 (fs_rename.wasm[171]:0x69ed)\n           at std::rt::lang_start::he8acaf7ad1de2c11 (fs_rename.wasm[42]:0xdb4)\n           at __original_main (fs_rename.wasm[23]:0x974)\n           at _start (fs_rename.wasm[8]:0x3e4)\n           at _start.command_export (fs_rename.wasm[307]:0xfec3)\n\u2570\u2500> 4: unreachable\n",
       "name": "libstd/fs_rename.wasm",
       "status": "FAIL"
     },
@@ -126,9 +126,9 @@
       "status": "PASS"
     },
     {
-      "message": "error: The following required arguments were not provided:\n    <FILE>\n\nUSAGE:\n    wasmer run <FILE> <--dir <DIR>...>\n\nFor more information try --help\n",
+      "message": "",
       "name": "libstd/fs_create_dir.wasm",
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "message": "",
@@ -141,9 +141,9 @@
       "status": "PASS"
     },
     {
-      "message": "error: The following required arguments were not provided:\n    <FILE>\n\nUSAGE:\n    wasmer run <FILE> <--dir <DIR>...>\n\nFor more information try --help\n",
+      "message": "",
       "name": "libstd/fs_file_create.wasm",
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "message": "",
@@ -156,9 +156,9 @@
       "status": "PASS"
     },
     {
-      "message": "error: The following required arguments were not provided:\n    <FILE>\n\nUSAGE:\n    wasmer run <FILE> --env <KEY=VALUE>...\n\nFor more information try --help\n",
+      "message": "",
       "name": "libstd/env_vars-hello.wasm",
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "message": "",
