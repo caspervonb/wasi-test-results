@@ -168,6 +168,6 @@
   ],
   "runtime": {
     "name": "deno",
-    "version": "1.11.2"
+    "version": "1.11.3+f4bed10"
   }
 }
