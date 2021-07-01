@@ -7,16 +7,11 @@
     },
     {
       "message": "",
-      "name": "core/clock_get_res-thread-cputime-id.wasm",
-      "status": "PASS"
-    },
-    {
-      "message": "",
       "name": "core/sched_yield.wasm",
       "status": "PASS"
     },
     {
-      "message": "abort:  in out/fd_stat_get-stderr.ts(19:1)\n",
+      "message": "abort:  in fd_stat_get-stderr.ts(19:1)\n",
       "name": "core/fd_stat_get-stderr.wasm",
       "status": "FAIL"
     },
@@ -36,19 +31,14 @@
       "status": "PASS"
     },
     {
-      "message": "abort:  in out/fd_stat_get-stdout.ts(19:1)\n",
+      "message": "abort:  in fd_stat_get-stdout.ts(19:1)\n",
       "name": "core/fd_stat_get-stdout.wasm",
       "status": "FAIL"
     },
     {
-      "message": "abort:  in out/fd_stat_get-stdin.ts(21:1)\n",
+      "message": "abort:  in fd_stat_get-stdin.ts(21:1)\n",
       "name": "core/fd_stat_get-stdin.wasm",
       "status": "FAIL"
-    },
-    {
-      "message": "",
-      "name": "core/clock_get_res-process-cputime-id.wasm",
-      "status": "PASS"
     },
     {
       "message": "",

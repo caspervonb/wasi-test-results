@@ -7,11 +7,6 @@
     },
     {
       "message": "",
-      "name": "core/clock_get_res-thread-cputime-id.wasm",
-      "status": "PASS"
-    },
-    {
-      "message": "",
       "name": "core/sched_yield.wasm",
       "status": "PASS"
     },
@@ -43,11 +38,6 @@
     {
       "message": "",
       "name": "core/fd_stat_get-stdin.wasm",
-      "status": "PASS"
-    },
-    {
-      "message": "",
-      "name": "core/clock_get_res-process-cputime-id.wasm",
       "status": "PASS"
     },
     {
