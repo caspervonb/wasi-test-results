@@ -1,88 +1,13 @@
 {
   "results": [
     {
-      "message": "wasi.js:129\n        throw err;\n        ^\n\nTypeError: wasm function signature contains illegal type\n    at __clock_gettime (<anonymous>:wasm-function[8]:0x36b)\n    at __original_main (<anonymous>:wasm-function[7]:0x1ec)\n    at _start (<anonymous>:wasm-function[6]:0x186)\n    at WASI.start (wasi.js:126:7)\n    at Object.<anonymous> (/home/runner/work/wasi-test-runners/wasi-test-runners/tools/run-node:60:6)\n    at Module._compile (internal/modules/cjs/loader.js:1068:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)\n    at Module.load (internal/modules/cjs/loader.js:933:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:774:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n",
-      "name": "libc/clock_gettime.wasm",
-      "status": "FAIL"
-    },
-    {
-      "message": "",
-      "name": "libc/exit-success.wasm",
-      "status": "PASS"
-    },
-    {
-      "message": "",
-      "name": "libc/getentropy.wasm",
-      "status": "PASS"
-    },
-    {
-      "message": "",
-      "name": "libc/stdin-hello.wasm",
-      "status": "PASS"
-    },
-    {
-      "message": "",
-      "name": "libc/stderr-hello.wasm",
-      "status": "PASS"
-    },
-    {
-      "message": "",
-      "name": "libc/getenv-hello.wasm",
-      "status": "PASS"
-    },
-    {
-      "message": "",
-      "name": "libc/stdout-hello.wasm",
-      "status": "PASS"
-    },
-    {
-      "message": "",
-      "name": "libc/exit-failure.wasm",
-      "status": "PASS"
-    },
-    {
-      "message": "",
-      "name": "libc/main.wasm",
-      "status": "PASS"
-    },
-    {
-      "message": "",
-      "name": "libc/clock_getres.wasm",
-      "status": "PASS"
-    },
-    {
-      "message": "",
-      "name": "core/fd_stat_get-stdin.wasm",
-      "status": "PASS"
-    },
-    {
       "message": "",
       "name": "core/proc_exit-success.wasm",
       "status": "PASS"
     },
     {
       "message": "",
-      "name": "core/clock_get_res-monotonic.wasm",
-      "status": "PASS"
-    },
-    {
-      "message": "",
-      "name": "core/start.wasm",
-      "status": "PASS"
-    },
-    {
-      "message": "",
-      "name": "core/clock_get_res-process-cputime-id.wasm",
-      "status": "PASS"
-    },
-    {
-      "message": "",
-      "name": "core/fd_stat_get-stdout.wasm",
-      "status": "PASS"
-    },
-    {
-      "message": "",
-      "name": "core/proc_exit-failure.wasm",
+      "name": "core/clock_get_res-thread-cputime-id.wasm",
       "status": "PASS"
     },
     {
@@ -92,17 +17,62 @@
     },
     {
       "message": "",
-      "name": "core/clock_get_res-realtime.wasm",
-      "status": "PASS"
-    },
-    {
-      "message": "",
       "name": "core/fd_stat_get-stderr.wasm",
       "status": "PASS"
     },
     {
       "message": "",
-      "name": "core/clock_get_res-thread-cputime-id.wasm",
+      "name": "core/clock_get_res-realtime.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
+      "name": "core/proc_exit-failure.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
+      "name": "core/clock_get_res-monotonic.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
+      "name": "core/fd_stat_get-stdout.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
+      "name": "core/fd_stat_get-stdin.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
+      "name": "core/clock_get_res-process-cputime-id.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
+      "name": "core/start.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
+      "name": "libstd/env_args-none.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
+      "name": "libstd/io_stdout-hello.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
+      "name": "libstd/env_vars-hello.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
+      "name": "libstd/process_exit.wasm",
       "status": "PASS"
     },
     {
@@ -122,12 +92,7 @@
     },
     {
       "message": "",
-      "name": "libstd/io_stdout-hello.wasm",
-      "status": "PASS"
-    },
-    {
-      "message": "",
-      "name": "libstd/fs_create_dir.wasm",
+      "name": "libstd/io_stderr-hello.wasm",
       "status": "PASS"
     },
     {
@@ -137,37 +102,72 @@
     },
     {
       "message": "",
+      "name": "libstd/fs_create_dir.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
       "name": "libstd/main.wasm",
       "status": "PASS"
     },
     {
-      "message": "wasi.js:129\n        throw err;\n        ^\n\nTypeError: wasm function signature contains illegal type\n    at _ZN4wasi13lib_generated9path_open17h19f647ae99559cb0E (<anonymous>:wasm-function[211]:0x833c)\n    at _ZN3std3sys4wasi2fs7open_at17h74f14f61a720bd23E (<anonymous>:wasm-function[148]:0x5ef9)\n    at _ZN3std2fs11OpenOptions5_open17h3e97b5393a9d5830E (<anonymous>:wasm-function[153]:0x602b)\n    at _ZN3std2fs11OpenOptions4open17h8a8913535f238f10E (<anonymous>:wasm-function[48]:0xfbe)\n    at _ZN3std2fs4File6create17h788cc03ce29f3913E (<anonymous>:wasm-function[49]:0x10aa)\n    at _ZN14fs_file_create4main17h84f2bf14b8a0f83aE (<anonymous>:wasm-function[42]:0xcec)\n    at _ZN4core3ops8function6FnOnce9call_once17h88c2389a52a74ab2E (<anonymous>:wasm-function[28]:0xb1f)\n    at _ZN3std10sys_common9backtrace28__rust_begin_short_backtrace17h378855a4d7bb8293E (<anonymous>:wasm-function[24]:0x8fc)\n    at _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h2975def41d13a053E (<anonymous>:wasm-function[56]:0x1b99)\n    at _ZN3std2rt19lang_start_internal17h3bc712c5a299b4e4E (<anonymous>:wasm-function[199]:0x7fce)\n",
+      "message": "wasi.js:134\n        throw err;\n        ^\n\nTypeError: wasm function signature contains illegal type\n    at _ZN4wasi13lib_generated9path_open17h19f647ae99559cb0E (<anonymous>:wasm-function[211]:0x833c)\n    at _ZN3std3sys4wasi2fs7open_at17h74f14f61a720bd23E (<anonymous>:wasm-function[148]:0x5ef9)\n    at _ZN3std2fs11OpenOptions5_open17h3e97b5393a9d5830E (<anonymous>:wasm-function[153]:0x602b)\n    at _ZN3std2fs11OpenOptions4open17h8a8913535f238f10E (<anonymous>:wasm-function[48]:0xfbe)\n    at _ZN3std2fs4File6create17h788cc03ce29f3913E (<anonymous>:wasm-function[49]:0x10aa)\n    at _ZN14fs_file_create4main17h84f2bf14b8a0f83aE (<anonymous>:wasm-function[42]:0xcec)\n    at _ZN4core3ops8function6FnOnce9call_once17h88c2389a52a74ab2E (<anonymous>:wasm-function[28]:0xb1f)\n    at _ZN3std10sys_common9backtrace28__rust_begin_short_backtrace17h378855a4d7bb8293E (<anonymous>:wasm-function[24]:0x8fc)\n    at _ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h2975def41d13a053E (<anonymous>:wasm-function[56]:0x1b99)\n    at _ZN3std2rt19lang_start_internal17h3bc712c5a299b4e4E (<anonymous>:wasm-function[199]:0x7fce)\n",
       "name": "libstd/fs_file_create.wasm",
       "status": "FAIL"
     },
     {
       "message": "",
-      "name": "libstd/io_stderr-hello.wasm",
+      "name": "libc/exit-failure.wasm",
       "status": "PASS"
     },
     {
       "message": "",
-      "name": "libstd/process_exit.wasm",
+      "name": "libc/getenv-hello.wasm",
       "status": "PASS"
     },
     {
       "message": "",
-      "name": "libstd/env_vars-hello.wasm",
+      "name": "libc/stdout-hello.wasm",
       "status": "PASS"
     },
     {
       "message": "",
-      "name": "libstd/env_args-none.wasm",
+      "name": "libc/stderr-hello.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
+      "name": "libc/stdin-hello.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
+      "name": "libc/getentropy.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
+      "name": "libc/exit-success.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
+      "name": "libc/clock_getres.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "wasi.js:134\n        throw err;\n        ^\n\nTypeError: wasm function signature contains illegal type\n    at __clock_gettime (<anonymous>:wasm-function[8]:0x36b)\n    at __original_main (<anonymous>:wasm-function[7]:0x1ec)\n    at _start (<anonymous>:wasm-function[6]:0x186)\n    at WASI.start (wasi.js:131:7)\n    at Object.<anonymous> (/home/runner/work/wasi-test-runners/wasi-test-runners/tools/run-node:60:6)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n",
+      "name": "libc/clock_gettime.wasm",
+      "status": "FAIL"
+    },
+    {
+      "message": "",
+      "name": "libc/main.wasm",
       "status": "PASS"
     }
   ],
   "runtime": {
     "name": "node",
-    "version": "14.17.0"
+    "version": "14.17.1"
   }
 }

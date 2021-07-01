@@ -2,97 +2,17 @@
   "results": [
     {
       "message": "",
-      "name": "libc/clock_gettime.wasm",
-      "status": "PASS"
-    },
-    {
-      "message": "",
-      "name": "libc/exit-success.wasm",
-      "status": "PASS"
-    },
-    {
-      "message": "",
-      "name": "libc/getentropy.wasm",
-      "status": "PASS"
-    },
-    {
-      "message": "",
-      "name": "libc/stdin-hello.wasm",
-      "status": "PASS"
-    },
-    {
-      "message": "",
-      "name": "libc/stderr-hello.wasm",
-      "status": "PASS"
-    },
-    {
-      "message": "",
-      "name": "libc/getenv-hello.wasm",
-      "status": "PASS"
-    },
-    {
-      "message": "",
-      "name": "libc/stdout-hello.wasm",
-      "status": "PASS"
-    },
-    {
-      "message": "",
-      "name": "libc/exit-failure.wasm",
-      "status": "PASS"
-    },
-    {
-      "message": "",
-      "name": "libc/main.wasm",
-      "status": "PASS"
-    },
-    {
-      "message": "",
-      "name": "libc/clock_getres.wasm",
-      "status": "PASS"
-    },
-    {
-      "message": "abort:  in out/fd_stat_get-stdin.ts(21:1)\n",
-      "name": "core/fd_stat_get-stdin.wasm",
-      "status": "FAIL"
-    },
-    {
-      "message": "",
       "name": "core/proc_exit-success.wasm",
       "status": "PASS"
     },
     {
       "message": "",
-      "name": "core/clock_get_res-monotonic.wasm",
-      "status": "PASS"
-    },
-    {
-      "message": "",
-      "name": "core/start.wasm",
-      "status": "PASS"
-    },
-    {
-      "message": "",
-      "name": "core/clock_get_res-process-cputime-id.wasm",
-      "status": "PASS"
-    },
-    {
-      "message": "abort:  in out/fd_stat_get-stdout.ts(19:1)\n",
-      "name": "core/fd_stat_get-stdout.wasm",
-      "status": "FAIL"
-    },
-    {
-      "message": "",
-      "name": "core/proc_exit-failure.wasm",
+      "name": "core/clock_get_res-thread-cputime-id.wasm",
       "status": "PASS"
     },
     {
       "message": "",
       "name": "core/sched_yield.wasm",
-      "status": "PASS"
-    },
-    {
-      "message": "",
-      "name": "core/clock_get_res-realtime.wasm",
       "status": "PASS"
     },
     {
@@ -102,7 +22,57 @@
     },
     {
       "message": "",
-      "name": "core/clock_get_res-thread-cputime-id.wasm",
+      "name": "core/clock_get_res-realtime.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
+      "name": "core/proc_exit-failure.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
+      "name": "core/clock_get_res-monotonic.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "abort:  in out/fd_stat_get-stdout.ts(19:1)\n",
+      "name": "core/fd_stat_get-stdout.wasm",
+      "status": "FAIL"
+    },
+    {
+      "message": "abort:  in out/fd_stat_get-stdin.ts(21:1)\n",
+      "name": "core/fd_stat_get-stdin.wasm",
+      "status": "FAIL"
+    },
+    {
+      "message": "",
+      "name": "core/clock_get_res-process-cputime-id.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
+      "name": "core/start.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
+      "name": "libstd/env_args-none.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
+      "name": "libstd/io_stdout-hello.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
+      "name": "libstd/env_vars-hello.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
+      "name": "libstd/process_exit.wasm",
       "status": "PASS"
     },
     {
@@ -122,17 +92,17 @@
     },
     {
       "message": "",
-      "name": "libstd/io_stdout-hello.wasm",
-      "status": "PASS"
-    },
-    {
-      "message": "",
-      "name": "libstd/fs_create_dir.wasm",
+      "name": "libstd/io_stderr-hello.wasm",
       "status": "PASS"
     },
     {
       "message": "",
       "name": "libstd/env_args-hello.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
+      "name": "libstd/fs_create_dir.wasm",
       "status": "PASS"
     },
     {
@@ -147,22 +117,52 @@
     },
     {
       "message": "",
-      "name": "libstd/io_stderr-hello.wasm",
+      "name": "libc/exit-failure.wasm",
       "status": "PASS"
     },
     {
       "message": "",
-      "name": "libstd/process_exit.wasm",
+      "name": "libc/getenv-hello.wasm",
       "status": "PASS"
     },
     {
       "message": "",
-      "name": "libstd/env_vars-hello.wasm",
+      "name": "libc/stdout-hello.wasm",
       "status": "PASS"
     },
     {
       "message": "",
-      "name": "libstd/env_args-none.wasm",
+      "name": "libc/stderr-hello.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
+      "name": "libc/stdin-hello.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
+      "name": "libc/getentropy.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
+      "name": "libc/exit-success.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
+      "name": "libc/clock_getres.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
+      "name": "libc/clock_gettime.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
+      "name": "libc/main.wasm",
       "status": "PASS"
     }
   ],
