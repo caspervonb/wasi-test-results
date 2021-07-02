@@ -106,13 +106,28 @@
       "status": "PASS"
     },
     {
+      "message": "--- abort.status\t2021-07-02 05:50:18.260493302 +0000\n+++ /tmp/tmp.7r7EdmfHng/status\t2021-07-02 05:50:20.920517691 +0000\n@@ -1 +1 @@\n-134\n\\ No newline at end of file\n+134\n",
+      "name": "libc/abort.wasm",
+      "status": "FAIL"
+    },
+    {
+      "message": "",
+      "name": "libc/clock_getres-realtime.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
+      "name": "libc/getenv-present.wasm",
+      "status": "PASS"
+    },
+    {
       "message": "",
       "name": "libc/exit-failure.wasm",
       "status": "PASS"
     },
     {
       "message": "",
-      "name": "libc/getenv-hello.wasm",
+      "name": "libc/assert-true.wasm",
       "status": "PASS"
     },
     {
@@ -122,7 +137,22 @@
     },
     {
       "message": "",
+      "name": "libc/clock_getres-monotonic.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
       "name": "libc/stderr-hello.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
+      "name": "libc/clock_gettime-realtime.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
+      "name": "libc/clock_gettime-monotonic.wasm",
       "status": "PASS"
     },
     {
@@ -141,14 +171,19 @@
       "status": "PASS"
     },
     {
-      "message": "Assertion failed: clock_getres(CLOCK_PROCESS_CPUTIME_ID, &ts) == 0 (clock_getres.c: main: 9)\nError: failed to run main module `clock_getres.wasm`\n\nCaused by:\n    0: failed to invoke command default\n    1: wasm trap: unreachable\n       wasm backtrace:\n           0:  0x3ce - <unknown>!abort\n           1:  0x420 - <unknown>!__assert_fail\n           2:  0x2c3 - <unknown>!__original_main\n           3:  0x17e - <unknown>!_start\n       note: run with `WASMTIME_BACKTRACE_DETAILS=1` environment variable to display more information\n       \n",
-      "name": "libc/clock_getres.wasm",
+      "message": "--- assert-false.status\t2021-07-02 05:50:18.260493302 +0000\n+++ /tmp/tmp.xvWkiZO4QU/status\t2021-07-02 05:50:21.400522092 +0000\n@@ -1 +1 @@\n-134\n\\ No newline at end of file\n+134\n",
+      "name": "libc/assert-false.wasm",
       "status": "FAIL"
     },
     {
-      "message": "Assertion failed: clock_gettime(CLOCK_PROCESS_CPUTIME_ID, &ts) == 0 (clock_gettime.c: main: 10)\nError: failed to run main module `clock_gettime.wasm`\n\nCaused by:\n    0: failed to invoke command default\n    1: wasm trap: unreachable\n       wasm backtrace:\n           0:  0x3d5 - <unknown>!abort\n           1:  0x427 - <unknown>!__assert_fail\n           2:  0x2cb - <unknown>!__original_main\n           3:  0x186 - <unknown>!_start\n       note: run with `WASMTIME_BACKTRACE_DETAILS=1` environment variable to display more information\n       \n",
-      "name": "libc/clock_gettime.wasm",
-      "status": "FAIL"
+      "message": "",
+      "name": "libc/ftruncate.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
+      "name": "libc/getenv-absent.wasm",
+      "status": "PASS"
     },
     {
       "message": "",

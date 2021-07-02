@@ -106,13 +106,28 @@
       "status": "FAIL"
     },
     {
+      "message": "--- abort.status\t2021-07-02 05:50:16.609592913 +0000\n+++ /tmp/tmp.0wwh6CSWIj/status\t2021-07-02 05:50:18.797776003 +0000\n@@ -1 +1 @@\n-134\n\\ No newline at end of file\n+1\n",
+      "name": "libc/abort.wasm",
+      "status": "FAIL"
+    },
+    {
+      "message": "",
+      "name": "libc/clock_getres-realtime.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
+      "name": "libc/getenv-present.wasm",
+      "status": "PASS"
+    },
+    {
       "message": "",
       "name": "libc/exit-failure.wasm",
       "status": "PASS"
     },
     {
       "message": "",
-      "name": "libc/getenv-hello.wasm",
+      "name": "libc/assert-true.wasm",
       "status": "PASS"
     },
     {
@@ -122,8 +137,23 @@
     },
     {
       "message": "",
+      "name": "libc/clock_getres-monotonic.wasm",
+      "status": "PASS"
+    },
+    {
+      "message": "",
       "name": "libc/stderr-hello.wasm",
       "status": "PASS"
+    },
+    {
+      "message": "wasi.js:134\n        throw err;\n        ^\n\nTypeError: wasm function signature contains illegal type\n    at __clock_gettime (<anonymous>:wasm-function[8]:0x269)\n    at __original_main (<anonymous>:wasm-function[7]:0x1ec)\n    at _start (<anonymous>:wasm-function[6]:0x186)\n    at WASI.start (wasi.js:131:7)\n    at Object.<anonymous> (/home/runner/work/wasi-test-runners/wasi-test-runners/tools/run-node:60:6)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n",
+      "name": "libc/clock_gettime-realtime.wasm",
+      "status": "FAIL"
+    },
+    {
+      "message": "wasi.js:134\n        throw err;\n        ^\n\nTypeError: wasm function signature contains illegal type\n    at __clock_gettime (<anonymous>:wasm-function[8]:0x269)\n    at __original_main (<anonymous>:wasm-function[7]:0x1ec)\n    at _start (<anonymous>:wasm-function[6]:0x186)\n    at WASI.start (wasi.js:131:7)\n    at Object.<anonymous> (/home/runner/work/wasi-test-runners/wasi-test-runners/tools/run-node:60:6)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n",
+      "name": "libc/clock_gettime-monotonic.wasm",
+      "status": "FAIL"
     },
     {
       "message": "",
@@ -141,14 +171,19 @@
       "status": "PASS"
     },
     {
-      "message": "",
-      "name": "libc/clock_getres.wasm",
-      "status": "PASS"
+      "message": "--- assert-false.status\t2021-07-02 05:50:16.609592913 +0000\n+++ /tmp/tmp.eBSbCefBDU/status\t2021-07-02 05:50:19.705851984 +0000\n@@ -1 +1 @@\n-134\n\\ No newline at end of file\n+1\n",
+      "name": "libc/assert-false.wasm",
+      "status": "FAIL"
     },
     {
-      "message": "wasi.js:134\n        throw err;\n        ^\n\nTypeError: wasm function signature contains illegal type\n    at __clock_gettime (<anonymous>:wasm-function[8]:0x36b)\n    at __original_main (<anonymous>:wasm-function[7]:0x1ec)\n    at _start (<anonymous>:wasm-function[6]:0x186)\n    at WASI.start (wasi.js:131:7)\n    at Object.<anonymous> (/home/runner/work/wasi-test-runners/wasi-test-runners/tools/run-node:60:6)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n",
-      "name": "libc/clock_gettime.wasm",
+      "message": "wasi.js:134\n        throw err;\n        ^\n\nTypeError: wasm function signature contains illegal type\n    at __wasilibc_openat_nomode (<anonymous>:wasm-function[29]:0x3635)\n    at open (<anonymous>:wasm-function[30]:0x36f2)\n    at __original_main (<anonymous>:wasm-function[14]:0x376)\n    at _start (<anonymous>:wasm-function[13]:0x29f)\n    at WASI.start (wasi.js:131:7)\n    at Object.<anonymous> (/home/runner/work/wasi-test-runners/wasi-test-runners/tools/run-node:60:6)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n",
+      "name": "libc/ftruncate.wasm",
       "status": "FAIL"
+    },
+    {
+      "message": "",
+      "name": "libc/getenv-absent.wasm",
+      "status": "PASS"
     },
     {
       "message": "",
