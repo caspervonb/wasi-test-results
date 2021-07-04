@@ -106,7 +106,7 @@
       "status": "FAIL"
     },
     {
-      "message": "--- abort.status\t2021-07-03 00:15:11.103952198 +0000\n+++ /tmp/tmp.sUyTQju8Hd/status\t2021-07-03 00:15:13.615938488 +0000\n@@ -1 +1 @@\n-134\n\\ No newline at end of file\n+1\n",
+      "message": "--- abort.status\t2021-07-04 00:14:35.243202738 +0000\n+++ /tmp/tmp.imVuFNeg2x/status\t2021-07-04 00:14:39.263404117 +0000\n@@ -1 +1 @@\n-134\n\\ No newline at end of file\n+1\n",
       "name": "libc/abort.wasm",
       "status": "FAIL"
     },
@@ -171,7 +171,7 @@
       "status": "PASS"
     },
     {
-      "message": "--- assert-false.status\t2021-07-03 00:15:11.103952198 +0000\n+++ /tmp/tmp.eFuP0Rc7Nk/status\t2021-07-03 00:15:14.595933140 +0000\n@@ -1 +1 @@\n-134\n\\ No newline at end of file\n+1\n",
+      "message": "--- assert-false.status\t2021-07-04 00:14:35.243202738 +0000\n+++ /tmp/tmp.SmaQ8RhSIx/status\t2021-07-04 00:14:40.163448937 +0000\n@@ -1 +1 @@\n-134\n\\ No newline at end of file\n+1\n",
       "name": "libc/assert-false.wasm",
       "status": "FAIL"
     },
